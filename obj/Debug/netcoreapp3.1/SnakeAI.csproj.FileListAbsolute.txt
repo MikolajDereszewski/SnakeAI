@@ -1,0 +1,14 @@
+D:\Projekty\SnakeAI\bin\Debug\netcoreapp3.1\SnakeAI.exe
+D:\Projekty\SnakeAI\bin\Debug\netcoreapp3.1\SnakeAI.deps.json
+D:\Projekty\SnakeAI\bin\Debug\netcoreapp3.1\SnakeAI.runtimeconfig.json
+D:\Projekty\SnakeAI\bin\Debug\netcoreapp3.1\SnakeAI.runtimeconfig.dev.json
+D:\Projekty\SnakeAI\bin\Debug\netcoreapp3.1\SnakeAI.dll
+D:\Projekty\SnakeAI\bin\Debug\netcoreapp3.1\SnakeAI.pdb
+D:\Projekty\SnakeAI\obj\Debug\netcoreapp3.1\SnakeAI.csproj.AssemblyReference.cache
+D:\Projekty\SnakeAI\obj\Debug\netcoreapp3.1\SnakeAI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekty\SnakeAI\obj\Debug\netcoreapp3.1\SnakeAI.AssemblyInfoInputs.cache
+D:\Projekty\SnakeAI\obj\Debug\netcoreapp3.1\SnakeAI.AssemblyInfo.cs
+D:\Projekty\SnakeAI\obj\Debug\netcoreapp3.1\SnakeAI.csproj.CoreCompileInputs.cache
+D:\Projekty\SnakeAI\obj\Debug\netcoreapp3.1\SnakeAI.dll
+D:\Projekty\SnakeAI\obj\Debug\netcoreapp3.1\SnakeAI.pdb
+D:\Projekty\SnakeAI\obj\Debug\netcoreapp3.1\SnakeAI.genruntimeconfig.cache
