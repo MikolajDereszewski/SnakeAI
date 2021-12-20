@@ -1,0 +1,15 @@
+D:\Projekty\SnakeAI\bin\Release\net6.0\SnakeAI.exe
+D:\Projekty\SnakeAI\bin\Release\net6.0\SnakeAI.deps.json
+D:\Projekty\SnakeAI\bin\Release\net6.0\SnakeAI.runtimeconfig.json
+D:\Projekty\SnakeAI\bin\Release\net6.0\SnakeAI.dll
+D:\Projekty\SnakeAI\bin\Release\net6.0\ref\SnakeAI.dll
+D:\Projekty\SnakeAI\bin\Release\net6.0\SnakeAI.pdb
+D:\Projekty\SnakeAI\obj\Release\net6.0\SnakeAI.csproj.AssemblyReference.cache
+D:\Projekty\SnakeAI\obj\Release\net6.0\SnakeAI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekty\SnakeAI\obj\Release\net6.0\SnakeAI.AssemblyInfoInputs.cache
+D:\Projekty\SnakeAI\obj\Release\net6.0\SnakeAI.AssemblyInfo.cs
+D:\Projekty\SnakeAI\obj\Release\net6.0\SnakeAI.csproj.CoreCompileInputs.cache
+D:\Projekty\SnakeAI\obj\Release\net6.0\SnakeAI.dll
+D:\Projekty\SnakeAI\obj\Release\net6.0\ref\SnakeAI.dll
+D:\Projekty\SnakeAI\obj\Release\net6.0\SnakeAI.pdb
+D:\Projekty\SnakeAI\obj\Release\net6.0\SnakeAI.genruntimeconfig.cache

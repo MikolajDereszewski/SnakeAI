@@ -87,6 +87,17 @@ namespace SnakeAI
 
 	public class Program
 	{
+		private const string EXTERNAL_CONTROL_ARG = "ai";
+		private static bool IsExternalControl;
+
+		private static readonly Dictionary<char, ConsoleKey> CharInputMap = new Dictionary<char, ConsoleKey>
+		{
+			{ 'w', ConsoleKey.W },
+			{ 's', ConsoleKey.S },
+			{ 'd', ConsoleKey.D },
+			{ 'a', ConsoleKey.A }
+		};
+
 		private static readonly Dictionary<ConsoleKey, (int x, int y)> InputVectorMap = new Dictionary<ConsoleKey, (int x, int y)>
 		{
 			{ ConsoleKey.W, (0, 1)  },
@@ -99,14 +110,22 @@ namespace SnakeAI
 		{
 			(int x, int y) input = (0, 0);
 			ConsoleKey key;
-			do key = Console.ReadKey(false).Key;
+			do
+				if(IsExternalControl)
+                {
+					char.TryParse(Console.ReadLine(), out char c);
+					key = CharInputMap[c];
+				}
+				else
+					key = Console.ReadKey(false).Key;
 			while (!InputVectorMap.Where(_ => _.Value.x != -lastInput.x || _.Value.y != -lastInput.y).Select(_ => _.Key).Contains(key) || !InputVectorMap.TryGetValue(key, out input));
 			return input;
 		}
 
 		private static void Repaint(HeadSnakeElement snakeHead)
 		{
-			Console.SetCursorPosition(0, 0);
+			if(!IsExternalControl)
+				Console.SetCursorPosition(0, 0);
 			for (int y = GameData.MapSize.h - 1; y >= 0; y--)
 			{
 				for (int x = 0; x < GameData.MapSize.w; x++)
@@ -119,6 +138,7 @@ namespace SnakeAI
 
 		private static void Main(string[] args)
 		{
+			IsExternalControl = args.Contains(EXTERNAL_CONTROL_ARG);
 			(int x, int y) moveDirection = (1, 1);
 			bool continueGame;
 			HeadSnakeElement snakeHead = new HeadSnakeElement((GameData.MapSize.w / 2, GameData.MapSize.h / 2));
